@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "pearlcatch",
+  "version": "${version}",
+  "name": "Pearl Catch",
+  "description": "Predicts ender pearl trajectory and auto-throws a wind charge to intercept it mid-air (the wind-charge pearl catch tech), continuously re-solving for the player's real velocity every tick.",
+  "authors": ["Shahir"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.shahir.pearlcatch.client.PearlCatchClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "fabric-api": "*",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}
